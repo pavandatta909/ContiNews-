@@ -1,0 +1,119 @@
+*{box-sizing: content-box;}
+body {
+  background-color: #E1E1DB;
+}
+  /* Add a black background color to the top navigation */
+.topnav{
+  background-color:#E5E594
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+  color: white;
+  padding: 14px 14px;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #444542;
+  width: 300px;
+}
+/* Change the color of links on hover */
+.topnav a:hover{
+  background-color: #9c9a84;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a:active{
+  background-color: #e0e3b3;
+  color: white;
+}
+
+/* SLIDESHOW */
+.slideshow-container{
+  max-width: 2000px;
+  position: inherit;
+  margin: inherit;
+  padding-top: 70px;
+}
+/* hide images */
+.mySlides{
+  display: flex;
+}
+/* buttons */
+#prevbtn, #nextbtn {
+  cursor: pointer;
+  position: relative;
+  top: auto;
+  width: auto;
+  margin-top: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: contain;
+}
+/* next button to right */
+.next{
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+/* hover for next and prev buttons */
+.prev:hover .next:hover {
+  background-color: red;
+}
+/* text */
+.text{
+  color: inherit;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* number count for images
+.numbertext{
+  color: inherit;
+  padding: inherit;
+  position: absolute;
+  padding: inherit;
+  top: auto;*/
+}
+/*image number indicators */
+.dot{
+  height: auto;
+  cursor: pointer;
+  margin: 0 2px;
+  background-color: orange;
+  transition: 0.6s easy;
+}
+.active, .dot:hover{
+  background-color: red;
+}
+/* fade effecct */
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: none;
+  animation-duration: 2s;
+}
+@-webkit-frames fade{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+/* #E1E1DB--light grey
+   #383838--dark grey almost blck
+   #E5E594--faded yellow
