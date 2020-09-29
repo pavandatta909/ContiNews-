@@ -1,0 +1,2 @@
+# ContiNews-
+follow specified news
